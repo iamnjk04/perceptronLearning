@@ -1,20 +1,19 @@
 import numpy as np
 
 '''
-  X  is a Data sample set with a bias -1 at the end for SGD to work
+  X  is a Data sample set with a bias 0 at the end
 '''
 X = np.array([
-    [-2,4,-1],
-    [4,1,-1],
-    [1, 6, -1],
-    [2, 4, -1],
-    [6, 2, -1],
+    [0,0,0],
+    [0,1,0],
+    [1,0,0],
+    [1, 1,0],
 
 ])
 
-'''Y is a data set OR corresponding target of the data set containing two samples labeled with -1 
- and three samples labeled with +1'''
-Y = np.array([-1,-1,1,1,1])
+'''Y is a data set OR corresponding target of the data set containing three samples labeled with -1 
+ and a sample labeled with +1'''
+Y = np.array([0,0,0,1])
 
 '''perceptron_sgd = Stochastic Gradient Descent
     :param X: data samples
