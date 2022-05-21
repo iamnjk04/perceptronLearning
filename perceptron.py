@@ -11,7 +11,7 @@ X = np.array([
 
 ])
 
-'''Y is a data set OR corresponding target of the data set containing three samples labeled with -1 
+'''Y is a data set OR corresponding target of the data set containing three samples labeled with 0
  and a sample labeled with +1'''
 Y = np.array([0,0,0,1])
 
